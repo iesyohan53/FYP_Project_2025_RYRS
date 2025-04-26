@@ -10,6 +10,7 @@ timezone EST+5EDT;
 }
 module powerflow {
 solver_method NR;
+NR_iteration_limit 50;
 }
 
 object node {
